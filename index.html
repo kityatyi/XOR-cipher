@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>XOR cipher</title>
+    <link rel="stylesheet" href="css/styles.css"/>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <div id="main-container">
+      <div class="xor-title">
+        <h1>XOR CIPHER</h1>
+      </div>
+
+      <div class="xor-plaintext">
+        <textarea
+          name=""
+          id="input"
+          cols="30"
+          rows="20"
+          placeholder="Input..."
+        ></textarea>
+      </div>
+
+      <div class="xor-key">
+        <input type="password" id="key" name="key" placeholder="Enter key..."/>
+      </div>
+
+      <div class="xor-encrypt">
+        <input type="button" id="encrypt" value="Encrypt" onclick="encrypt()"/>
+        <input type="button" id="decrypt" value="Decrypt" onclick="decrypt()"/>
+      </div>
+
+      <div class="xor-ciphertext">
+        <textarea
+          name=""
+          id="output"
+          cols="30"
+          rows="20"
+          placeholder="Output..."
+        ></textarea>
+      </div>
+    </div>
+
+    <script src="js/scripts.js"></script>
+  </body>
+</html>

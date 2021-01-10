@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background: #111;
+  font-family: "Courier New", Courier, monospace;
+  color: #ccc;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.xor-title {
+  margin-top: 33px;
+  display: flex;
+  justify-content: center;
+}
+
+.xor-plaintext {
+  margin-top: 33px;
+  display: flex;
+  justify-content: center;
+}
+
+.xor-key {
+  margin-top: 11px;
+  display: flex;
+  justify-content: center;
+}
+
+.xor-encrypt {
+  margin-top: 33px;
+  display: flex;
+  justify-content: center;
+}
+
+.xor-ciphertext {
+  margin-top: 33px;
+  display: flex;
+  justify-content: center;
+}
+
+#input,
+#key,
+#output {
+  width: 333px;
+  background: linear-gradient(135deg, #333, #444);
+  font-family: "Courier New", Courier, monospace;
+  color: #ccc;
+  outline: none;
+}
+
+#encrypt {
+  width: 99px;
+  height: 33px;
+  margin-right: 11px;
+  outline: none;
+  border-radius: 9px;
+  background: linear-gradient(135deg, #333, #444);
+  font-family: "Courier New", Courier, monospace;
+  color: #ccc;
+}
+
+#decrypt {
+  width: 99px;
+  height: 33px;
+  margin-left: 11px;
+  outline: none;
+  border-radius: 9px;
+  background: linear-gradient(135deg, #333, #444);
+  font-family: "Courier New", Courier, monospace;
+  color: #ccc;
+}
+
+#encrypt:hover,
+#decrypt:hover {
+  background: linear-gradient(135deg, #222, #333);
+}
